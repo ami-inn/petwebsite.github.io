@@ -1,0 +1,134 @@
+
+
+:root{
+    --c-dark:#212529;
+    --c-brand:rgb(255, 160, 207);
+    --c-brand-light:#d47dea;
+    --cbrand-rgb:186, 52, 219;
+    --c-body:#d91919;
+    --font-base:"ClashDisplay",sans-serif;
+    --box-shadow:0px 15px 25px rgba(0,0,0,0.08);
+    --transition:all 0.5s ease;
+}
+body{
+    font-family: var(--font-base);
+    line-height: 1.7;
+    margin: 0;
+    overflow-x: hidden;
+    padding: 0;
+    height: 300vh;
+    
+
+}
+h1 ,h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6{
+    font-weight: 600;
+    
+
+}
+a{
+    text-decoration: none;
+    transition: var(--transition);
+}
+a:hover{
+ color: black;   
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+/*<<<<<<<<< Header>  >>>>>>>>>>>>>>>>>*/
+
+header{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top, rgba(0,0,0,0.3)50%,rgba(0,0,0,0.3)50%),url(images/main.jpg);
+    background-position:inherit ;
+    background-size:cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.header-container{
+    margin-bottom: 150px;
+    margin-left: 80px;
+    text-align: left;
+    line-height: 1.1;
+}
+.header-container .main-head{
+    color:white;
+    font-size: 5pc;
+    text-transform: capitalize;
+    font-family: 'Nerko One', cursive;
+    margin-bottom: 7px;
+}
+.header-container span{
+    margin-top: 0px;
+    color:var(--c-brand);
+    text-align: end;
+}
+.header-container .line{
+    width: 230px;
+    height: 2px;
+    background-color:white;
+    margin-top: auto;
+}
+.header-container .sub-head{
+    font-size: 20px;
+    text-transform: lowercase;
+    color: rgba(252, 187, 220, 0.659);
+}
+.sub-head span{
+    color:var(--c-brand);
+    font-family: 'Anek Devanagari', sans-serif;
+}
+.header-button{
+    width: 140px;
+    height: 40px;
+    font-size: 15px;
+    text-transform:u ;
+    padding: 9px;
+    background: transparent;
+    border: 2px solid black;
+    color: white;
+    border-radius: 4px;
+    transition: var(--transition);
+}
+.header-button:hover{
+
+    background-color: var(--c-brand);
+    border: none;
+    color: black;
+}
+/*<<<Nav Bar>>>>*/
+
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding:0;
+    color: white;
+}
+ul{
+    list-style: none;
+}
+.nav-link{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.nav-link li{
+    margin: 0 12px;
+}
+.navbar h1{
+    margin-left:10%;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+
